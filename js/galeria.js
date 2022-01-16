@@ -1,0 +1,26 @@
+$(function(){
+  $('#diaporama').mixSlide({
+    fullscreen:false,
+    thumbs:{
+      active:true,
+      position:'bottom'
+    },
+    controls:{
+      active:true,
+      position:"top"
+    },
+    transition:{
+      name:"random",
+      constant:true
+    },
+    animation:{
+      delay:3,
+      speed:1
+    },
+    autoplay:true,
+    labels:{
+      active:true,
+      position:"bottom-right"
+    }
+  });
+});

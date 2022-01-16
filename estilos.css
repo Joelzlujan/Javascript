@@ -1,0 +1,548 @@
+header, section, footer {
+	width: 960px;
+	margin-right:auto;
+	margin-left: auto;
+
+}
+header {
+	background-color:#4287f5;
+	height:100px;
+	position:sticky;
+}
+body {
+	font-family: Lato, sans-serif;
+}
+#marca{
+	width: 220px;
+	height: 100px;
+	background-color:#0D0D0D;
+	float:left;
+}
+#marca img{
+	width: 100%;
+}
+#botonera{
+	width:530px;
+	height: 100px;
+	background-color:#0D0D0D; 
+	float:left;
+}
+#botonera ul{
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+}
+#botonera ul li{
+	display: inline;
+}
+#botonera ul li a{
+	display: inline-block;
+	text-decoration: none;
+	color:#FFFFFF;
+	font-family: Lato, sans-serif;
+	padding:40px 48px;
+
+}
+#botonera ul li a:hover{
+	background-color: #242830;
+}
+#iconos_redes{
+	width:210px;
+	height: 100px;
+	background-color:#0D0D0D;
+	float: left;
+}
+#iconos_redes img{
+	margin-left: 38px;
+	margin-top: 40px;
+}
+section {
+	background-color:#242830;
+	height: 1210px;
+	margin-top: 10px;
+}
+#list1, #list2_izq, #list2_der{
+	margin-bottom:10px;
+}
+#list1 {
+	width: 960px;
+	height: 200px;
+	background-color:#0D0D0D;
+	float:left;
+}
+#list2_izq {
+	width:350px;
+	height:490px;
+	background-color:#0D0D0D;
+	float:left;   
+	margin-right: 10px;
+}
+#list2_der {
+	width:600px;
+	height:490px;
+	background-color:#0D0D0D;
+	float:right;
+}
+#list3_izq{
+	width:600px;
+	height: 490px;
+	background-color:#0D0D0D;
+	float: left;  
+}
+
+#list3_der{
+	width: 350px;
+	height: 490px;
+	background-color:#0D0D0D;
+	float:right;
+}
+section #list2_izq h2{
+	color: #FFFFFF;
+	padding-top: 50px;
+	font-size: 20px;
+}
+section #list2_izq p{
+	color: #FFFFFF;
+	font-size: 15px;
+	padding: 15px;
+	padding-top: 60px;
+}
+section #list3_der h2{
+	color: #FFFFFF;
+	padding-top: 100px;
+	font-size: 20px;
+}
+section #list3_der p{
+	color: #FFFFFF;
+	font-size: 15px;
+	padding: 20px;
+	padding-top: 60px;	
+}
+footer {
+	background-color:#000000;
+	height:180px; 
+	margin-top: 10px;
+}
+#pie_izq {
+	width:350px;
+	height: 100px;
+	margin-right:10px; 
+	background-color:#0D0D0D;
+	float:left;
+}
+#pie_izq h2{
+	color:#FFFFFF;
+	display: inline-block;
+	text-decoration: none;
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+}
+#pie_cen{
+	width: 290px;
+	height: 100px;
+	float:left;
+	margin-right: 10px;
+	background-color: #0D0D0D;
+}
+#pie_cen h2{
+	display: inline;
+}
+#pie_cen h2 a{
+	color:#FFFFFF;
+	display: inline-block;
+	text-decoration: none;
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+}
+#pie_der{
+	width: 300px;
+	height: 100px;
+	background-color:#0D0D0D;
+	float:right; 	
+
+} 
+#pie_der h2{
+	color:#FFFFFF;
+	display: inline-block;
+	text-decoration: none;
+	font-family: Lato, sans-serif;
+	font-size: 16px;	
+}
+#contacto{
+	width: 300px;
+	height: 70px;
+	margin-top: 10px;
+	float:right;
+	margin-right: 305px;
+	background-color:#242830
+	
+}
+#contacto img{
+	margin-left:29px;
+	margin-top: 7px;
+	padding: 15px;
+	box-sizing: border-box;
+}
+#about_arriba {
+	width: 960px;
+	height: 460px;
+	background-color:#0d0d0d;
+	float:right; 
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+section #about_arriba img{
+	width: 100%;
+}
+#about_izq {
+	width: 640px;
+	height: 640px;
+	margin-right: 10px;
+	background-color: #0d0d0d;
+	float:left;
+}
+section #about_izq img{
+	width: 100%;
+}
+#about_der{
+	width: 300px;
+	height: 640px;
+	background-color: #0d0d0d;
+	float:right;
+	font-family: Lato, sans-serif;
+	font-size: 20px;
+	color:#FFFFFF;
+	padding:15px;
+	box-sizing:border-box;
+	text-align: center;
+	
+}
+#about_abajo {
+	width: 960px;
+	height: 620px;
+	clear: both;
+	background-color: #0d0d0d;
+	margin-top: 10px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+
+section #about_abajo img{
+	width: 100%;
+}
+
+#formulario {
+	width: 960px;
+	height: 1210px;
+	float:left;
+	background-color:#0D0D0D; 
+	color:#FFFFFF;
+	font-family: Lato, sans-serif;
+}
+input, textarea {
+	width: 80%;
+	box-sizing: border-box;
+	padding: 25px;
+	margin-bottom: 10px;
+	font-size: 15px;
+
+}
+section, div, h2 {
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 50px;
+	font-family: Lato, sans-serif;
+}
+#tienda {
+	width:900px;height:550px;
+	clear:both;
+	background-color:#0D0D0D; 
+}
+#tienda h3{
+	font-family: Lato, sans-serif;
+	color:#FFFFFF;
+	text-align: center;
+	padding: 100px;
+	box-sizing: border-box;
+}
+
+#diaporama{
+	margin:auto;overflow:hidden;width:900px;height:550px;
+	box-shadow:0 0 30px white;
+}
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+header, section, footer {
+	width: 580px;
+}
+
+
+#botonera{
+	width:240px;
+}
+
+#botonera ul li a{
+	padding:40px 1px;
+
+}
+#iconos_redes{
+	width:120px;
+}
+#iconos_redes img{
+	margin-left: 6px;
+}
+
+#list1 {
+	width: 580px;
+	height: 120px;
+}
+section #list1 img{
+	width: 100%;
+}
+#list2_izq {
+	width:580px;
+	height:450px;  
+	margin-right: 0px;
+}
+
+#list2_der {
+	width:580px;
+
+}
+section #list2_der img{
+	width: 100%;
+}
+#list3_izq{
+	width:580px; 
+}
+section #list3_izq img{
+	width: 100%;
+}
+#list3_der{
+	width: 580px;
+	height: 450px;
+}
+#pie_izq {
+	width:290px;
+	margin-right:0px; 
+}
+
+#pie_cen{
+	width: 290px;
+	margin-right: 0px;
+}
+
+
+#pie_der{
+	width: 290px;
+	height: 70px;
+} 
+
+#contacto{
+	width: 290px;
+	height: 70px;
+	margin-top: 0px;
+	margin-right: 0px;	
+}
+#about_arriba {
+	width: 580px;
+	height: 280px;
+	margin-bottom: 5px;
+}
+section #about_arriba img{
+	width: 100%;
+}
+#about_izq {
+	width: 580px;
+	height: 580px;
+	margin-right: 0px;
+}
+
+#about_der{
+	width: 580px;
+	height: 400px;
+}
+#about_abajo {
+	width: 580px;
+	height: 400px;
+}
+
+#formulario {
+	width: 580px;
+}
+#tienda {
+	width: 580px;
+}
+#diaporama{
+	margin:auto;
+	overflow:hidden;
+	width:480px;
+	box-shadow:0 
+}
+	} /*fin media 600 a 1023*/
+
+
+@media all and (max-width: 599px){
+header, section, footer {
+	width:90%;
+}
+header {
+	height:auto;
+}
+
+#marca{
+	width: 100%;
+	height: auto;
+	float:none;
+}
+#botonera{
+	width:100%;
+	height: auto;
+	float:none;
+}
+#botonera ul li{
+	display: block;
+}
+#botonera ul li a{
+	width: 100%;
+	text-align: center;
+	padding:20px 0px;
+
+}
+#iconos_redes{
+	width:100%;
+	height: auto;
+	float: none;
+}
+#iconos_redes img{
+	margin-left:20px;
+	margin-top: 0px;
+}
+section {
+	height: auto;
+	margin-top: 10px;
+}
+#list1, #list2_izq, #list2_der, #list3_izq, #list3_der, #pie_izq, #pie_cen, #pie_der, #contacto{
+	margin-bottom:0px;
+	width: 100%;
+	height: auto;
+	float: none;
+}
+
+section #list1 img{
+width: 100%;
+}
+#list2_izq {
+	margin-top:0px;
+	margin-right: 0px;
+	height:300px; 
+}
+section #list2_izq h2{
+	padding-top: 9px;
+	margin-top: 0px;
+}
+section #list2_izq p{
+	padding: 10px;
+	padding-top: 40px;
+}
+section #list2_der img{
+	width: 100%;
+}
+#list3_der{
+	margin-top:0px;
+	margin-right: 0px;
+	height:300px; 
+}
+section #list3_der h2{
+	padding-top: 40px;
+	margin-top: 0px;
+}
+section #list3_der p{
+	padding: 0px;
+	padding-top: 40px;	
+}
+section #list3_izq img {
+	width: 100%;
+}
+
+footer {
+	height:auto; 
+	margin-top: 10px;
+}
+#pie_izq {
+	margin-right:0px; 
+}
+#pie_izq h2{
+	text-align: center;
+}
+#pie_cen{
+
+	margin-right: 0px;
+}
+
+#contacto{
+	margin-top: 0px;
+	margin-right: 0px;
+
+}
+
+#about_arriba, #about_izq, #about_der, #about_abajo {
+	margin-bottom:0px;
+	width: 100%;
+	height: auto;
+	float: none;
+}
+section #about_arriba img{
+	width: 100%;
+}
+#about_izq {
+	margin-right: 0px;
+}
+section #about_izq img{
+	width: 100%;
+}
+#about_der{
+	padding:5px;
+
+}
+#about_abajo {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+section #about_abajo img{
+	width: 100%;
+}
+
+#formulario {
+	margin-bottom:0px;
+	width: 100%;
+	height: auto;
+	float: none;
+}
+
+#tienda {
+	margin-bottom:0px;
+	width: 100%;
+	height: auto;
+	float: none;
+}
+#tienda h3{
+
+	text-align: center;
+	padding: 0px;
+
+}
+#diaporama{
+	margin:auto;
+	padding: 0px;
+    height: 550px;
+	float: none;
+	box-sizing: border-box;
+
+	box-shadow:0 0 0px white;
+}
+
+	}	/* fin media -599*/

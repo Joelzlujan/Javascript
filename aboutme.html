@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Murcia</title>
+	<link rel="stylesheet" href="estilos.css"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<meta name="viewport" content="widht=device-width, initial-scale=1">
+	<style>
+		section{
+			height: auto;
+}
+
+	</style>
+</head>
+<body>
+	<header>
+		<div id="marca">
+			<a href="index.html"><img src="Imagenes/marca.png"/></a>
+		</div>
+		<nav id="botonera">
+			<ul>
+				<li><a href="tienda.html">TIENDA</a></li>
+				<li><a href="aboutme.html">ABOUT ME</a></li>
+				<li><a href="contacto.html">CONTACTO</a></li>
+			</ul>
+		</nav>
+
+		<div id="iconos_redes">
+				<a href="https://www.facebook.com/murciadisenio" target="_blank"><img src="Imagenes/facebook.png"/></a>
+				<a href="https://www.instagram.com/murciadiseno.mendoza/?hl=es-la" target="_blank"><img src="Imagenes/instagram.png" target="_blank"/></a>
+				<a href="https://api.whatsapp.com/send?phone=5492615043236"  target="_blank"><img src="Imagenes/whatsapp.png" /></a>
+		</div> 
+
+	</header>
+	<section>
+		<div id="about_arriba">
+			<a title="about me" href=#about><img src="Imagenes/about02.jpg" onclick="mostrar('about_izq'), mostrar('about_der'), mostrar('about_abajo')" /></a>
+		</div>
+		<div id="about_izq" style="display: none;">
+			<img src="Imagenes/about01.jpg"/>
+		</div>
+		<div id="about_der" style="display: none;">
+			<p>Me llamo <em>Giani</em>&nbsp y soy diseñadora. Creo que la vida es una fiesta para celebrar cada día. Que  levantarse los lunes a hacer lo que amás, los hace menos lunes.<br/> A veces no me da la vida, pero me gusta parar, cerrar los ojos, y planear pequeños sueños que, de a poco, se van concretando. Creo que  hay días grises, pero siempre hay algún motivo para bailar, sonreír y disfrutar cada instante.</p> 
+
+			<p><em>Murcia</em>&nbsp es un espacio donde comparto mi mundo creativo. Papelería, cerámica, accesorios y un montón de otras cosas que hacen de todo esto un espacio divertido y especial.</p> 
+
+		</div>
+		<div id="about_abajo" style="display: none;">
+			<img src="Imagenes/about03.jpg"/>
+		</div>
+
+	</section>
+	<footer>
+		<div id="pie_izq">
+			<h2>FAQS</h2>
+		</div>
+		<div id="pie_cen">
+			<h2><a href="legales.html">LEGALES</a></h2>
+		</div>
+		<div id="pie_der">
+			<h2>ENVIAR A UN AMIGO</h2>
+		</div>
+		<div id="contacto">
+				<a href="https://www.facebook.com/murciadisenio" target="_blank"><img src="Imagenes/facebook.png"/></a>
+				<a href="https://www.instagram.com/murciadiseno.mendoza/?hl=es-la" target="_blank"><img src="Imagenes/instagram.png" target="_blank"/></a>
+				<a href="https://api.whatsapp.com/send?phone=5492615043236"  target="_blank"><img src="Imagenes/whatsapp.png" /></a>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/mostrar.js"></script>
+</body>
+</html>

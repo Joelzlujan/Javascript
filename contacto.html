@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Murcia</title>
+	<link rel="stylesheet"  href="estilos.css"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<meta name="viewport" content="widht=device-width, initial-scale=1">	
+</head>
+<body>
+	<header>
+		<div id="marca">
+			<a href="index.html"><img src="Imagenes/marca.png"/></a>
+		</div>
+		<nav id="botonera">
+			<ul>
+				<li><a href="tienda.html">TIENDA</a></li>
+				<li><a href="aboutme.html">ABOUT ME</a></li>
+				<li><a href="contacto.html">CONTACTO</a></li>
+			</ul>
+		</nav>
+
+		<div id="iconos_redes">
+				<a href="https://www.facebook.com/murciadisenio" target="_blank"><img src="Imagenes/facebook.png"/></a>
+				<a href="https://www.instagram.com/murciadiseno.mendoza/?hl=es-la" target="_blank"><img src="Imagenes/instagram.png" target="_blank"/></a>
+				<a href="https://api.whatsapp.com/send?phone=5492615043236"  target="_blank"><img src="Imagenes/whatsapp.png" /></a>
+		</div> 
+
+	</header>
+	<section>
+		<div id="formulario">
+			
+			<form>
+				<label for="form"><h2>Formulario de contacto</h2></label>
+				<input type="text" placeholder="Nombre y Apellido" id="nombre" minlength="0" maxlength="20" required>
+				<input type="email" placeholder="Email" id="mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$">
+				<input type="number" placeholder="Número de Teléfono" required>
+				<textarea placeholder="Consulta" rows="10"></textarea>
+				<input type="submit" value="Validar. Antes de ENVIAR">
+				<input type="submit" >
+			</form>
+
+	</section>
+	<footer>
+		<div id="pie_izq">
+			<h2>FAQS</h2>
+		</div>
+		<div id="pie_cen">
+			<h2><a href="legales.html">LEGALES</a></h2>
+		</div>
+		<div id="pie_der">
+			<h2>ENVIAR A UN AMIGO</h2>
+		</div>
+		<div id="contacto">
+				<a href="https://www.facebook.com/murciadisenio" target="_blank"><img src="Imagenes/facebook.png"/></a>
+				<a href="https://www.instagram.com/murciadiseno.mendoza/?hl=es-la" target="_blank"><img src="Imagenes/instagram.png" target="_blank"/></a>
+				<a href="https://api.whatsapp.com/send?phone=5492615043236"  target="_blank"><img src="Imagenes/whatsapp.png" /></a>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/validar.js"></script>
+</body>
+</html>
