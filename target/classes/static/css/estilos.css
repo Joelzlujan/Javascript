@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+form div label{
+    color: white;
+}
+.titulo {
+    text-align: center;
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
+#boton{
+    background-color: brown;
+    color: white;
+}
+#boton:hover {
+    background-color: white;
+    color:black;
+}
